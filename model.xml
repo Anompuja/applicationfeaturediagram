@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="autolayoutconstraints" value="false"/>
+		<graphics key="legendautolayout" value="true"/>
+		<graphics key="showconstraints" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="vertical"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="4"/>
+	</properties>
+	<struct>
+		<and abstract="true" mandatory="true" name="RSCF-DMS Astungkara Way">
+			<and abstract="true" mandatory="true" name="Goals">
+				<graphics key="collapsed" value="false"/>
+				<feature mandatory="true" name="Cost Reduction"/>
+				<feature mandatory="true" name="Sustainability"/>
+				<feature mandatory="true" name="Disease Prevention"/>
+				<feature mandatory="true" name="Threat Detection"/>
+				<feature mandatory="true" name="Risk Management"/>
+				<feature name="Productivity Improvement"/>
+				<feature name="Profitability"/>
+				<feature name="Resource Efficiency"/>
+				<feature name="Environmental Protection"/>
+				<feature name="Yield Optimization"/>
+				<feature name="Harvest Quality"/>
+			</and>
+			<and abstract="true" mandatory="true" name="Farm Activities">
+				<graphics key="collapsed" value="false"/>
+				<and abstract="true" name="Preparation Phase">
+					<graphics key="collapsed" value="false"/>
+					<feature name="Crop Selection"/>
+					<feature mandatory="true" name="Soil Testing"/>
+					<feature mandatory="true" name="Soil Analysis"/>
+					<feature mandatory="true" name="Plowing"/>
+					<feature mandatory="true" name="Soil Amendment"/>
+					<feature name="Cleaning"/>
+				</and>
+				<and abstract="true" name="Production Phase">
+					<graphics key="collapsed" value="false"/>
+					<feature mandatory="true" name="Planting"/>
+					<feature name="Seeding"/>
+					<feature mandatory="true" name="Transplanting"/>
+					<feature mandatory="true" name="Irrigation"/>
+					<feature name="Irrigation Scheduling"/>
+					<feature mandatory="true" name="Fertilization"/>
+					<feature mandatory="true" name="Plant Disease Control"/>
+					<feature mandatory="true" name="Pest Control"/>
+					<feature mandatory="true" name="Weed Control"/>
+					<feature name="Spraying"/>
+				</and>
+				<and abstract="true" name="Controlling and Monitoring Phase">
+					<graphics key="collapsed" value="false"/>
+					<and abstract="true" mandatory="true" name="Monitoring">
+						<graphics key="collapsed" value="false"/>
+						<feature mandatory="true" name="Crop Scouting"/>
+						<feature mandatory="true" name="Crop Health Monitoring"/>
+						<feature mandatory="true" name="Environmental Monitoring"/>
+					</and>
+					<feature mandatory="true" name="Recording"/>
+				</and>
+				<and abstract="true" name="Harvest Phase">
+					<graphics key="collapsed" value="false"/>
+					<feature mandatory="true" name="Optimal Timing"/>
+					<feature mandatory="true" name="Harvesting"/>
+					<feature name="Yield Prediction"/>
+				</and>
+				<and abstract="true" name="Post Harvest Phase">
+					<graphics key="collapsed" value="false"/>
+					<feature mandatory="true" name="Drying"/>
+					<feature mandatory="true" name="Storage"/>
+					<feature mandatory="true" name="Milling"/>
+					<feature name="Processing"/>
+				</and>
+				<and abstract="true" name="Supply Chain Activity">
+					<graphics key="collapsed" value="false"/>
+					<feature mandatory="true" name="Supply Chain Management"/>
+					<feature name="Market Condition Analysis"/>
+					<feature name="Crop Pricing"/>
+				</and>
+			</and>
+			<and abstract="true" mandatory="true" name="Field Data">
+				<graphics key="collapsed" value="false"/>
+				<feature mandatory="true" name="Weather Station"/>
+				<and abstract="true" mandatory="true" name="Soil Data">
+					<graphics key="collapsed" value="false"/>
+					<feature mandatory="true" name="Soil Moisture"/>
+					<feature mandatory="true" name="Soil Condition"/>
+					<feature mandatory="true" name="pH Level"/>
+					<feature mandatory="true" name="Nitrogen Content"/>
+					<feature name="Organic Carbon"/>
+				</and>
+				<and abstract="true" mandatory="true" name="Spatial Data">
+					<graphics key="collapsed" value="false"/>
+					<feature mandatory="true" name="Location Data"/>
+					<feature mandatory="true" name="NDVI"/>
+					<feature mandatory="true" name="Vegetation Index"/>
+					<feature name="NDVI Map"/>
+				</and>
+				<and abstract="true" mandatory="true" name="Biological Attributes">
+					<graphics key="collapsed" value="false"/>
+					<feature abstract="true" mandatory="true" name="Productivity"/>
+					<feature abstract="true" mandatory="true" name="Health"/>
+					<feature mandatory="true" name="Grain Yield"/>
+					<feature name="Plant Height"/>
+					<and abstract="true" mandatory="true" name="Plant Morphology">
+						<graphics key="collapsed" value="false"/>
+						<feature mandatory="true" name="Tiller Count"/>
+						<feature mandatory="true" name="Discoloration Patterns"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="Occurrence Data">
+					<graphics key="collapsed" value="false"/>
+					<feature mandatory="true" name="Pest Prevalence"/>
+					<feature mandatory="true" name="Weed Occurrences"/>
+					<feature mandatory="true" name="Animal Occurrences"/>
+				</and>
+				<and abstract="true" mandatory="true" name="Atmospheric Data">
+					<graphics key="collapsed" value="false"/>
+					<feature mandatory="true" name="Temperature"/>
+					<feature mandatory="true" name="Humidity"/>
+					<feature mandatory="true" name="Rainfall"/>
+					<feature mandatory="true" name="Environmental Sensors"/>
+					<feature name="Rain Forecast"/>
+					<feature name="Wind Speed"/>
+				</and>
+				<and abstract="true" name="Water Data">
+					<graphics key="collapsed" value="false"/>
+					<feature mandatory="true" name="Water Height"/>
+					<feature name="Water Quality"/>
+				</and>
+				<and abstract="true" mandatory="true" name="Nutrient Data">
+					<graphics key="collapsed" value="false"/>
+					<feature mandatory="true" name="Nitrogen"/>
+					<feature mandatory="true" name="Phosphorus"/>
+					<feature mandatory="true" name="Potassium"/>
+				</and>
+			</and>
+			<and abstract="true" mandatory="true" name="Adopted Technologies">
+				<graphics key="collapsed" value="false"/>
+				<and abstract="true" mandatory="true" name="AI and Analytics">
+					<graphics key="collapsed" value="false"/>
+					<feature mandatory="true" name="Statistical Model"/>
+					<and abstract="true" name="Big Data and Image Processing">
+						<graphics key="collapsed" value="false"/>
+						<feature name="Image Annotation"/>
+						<feature name="Pixel Based"/>
+						<feature name="Object Based"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="Sensing Technologies">
+					<graphics key="collapsed" value="false"/>
+					<feature mandatory="true" name="Satellite"/>
+					<feature mandatory="true" name="GNSS"/>
+					<feature mandatory="true" name="Moisture Sensor"/>
+					<feature mandatory="true" name="RGB Camera"/>
+					<feature name="UAV Drone"/>
+				</and>
+				<and abstract="true" name="Smart Machinery">
+					<graphics key="collapsed" value="false"/>
+					<feature name="UGV"/>
+					<feature name="Autonomous Tractors"/>
+				</and>
+				<or abstract="true" mandatory="true" name="User Interface">
+					<graphics key="collapsed" value="false"/>
+					<feature name="Mobile Application"/>
+					<feature name="Web Application"/>
+				</or>
+				<and abstract="true" mandatory="true" name="Decision Support Systems">
+					<graphics key="collapsed" value="false"/>
+					<feature mandatory="true" name="Expert System"/>
+				</and>
+			</and>
+			<and abstract="true" mandatory="true" name="Architecture Design">
+				<graphics key="collapsed" value="false"/>
+				<and abstract="true" mandatory="true" name="Communication Protocols">
+					<graphics key="collapsed" value="false"/>
+					<feature mandatory="true" name="WSN"/>
+					<feature mandatory="true" name="WiFi"/>
+					<feature mandatory="true" name="Cellular"/>
+					<feature mandatory="true" name="MQTT"/>
+					<feature mandatory="true" name="HTTP HTTPS"/>
+				</and>
+				<and abstract="true" mandatory="true" name="Computing Infrastructure">
+					<graphics key="collapsed" value="false"/>
+					<feature mandatory="true" name="Cloud Computing"/>
+				</and>
+				<and abstract="true" mandatory="true" name="Hardware System">
+					<graphics key="collapsed" value="false"/>
+					<feature mandatory="true" name="PC"/>
+					<feature mandatory="true" name="IOT Devices"/>
+					<feature name="Mote Sensor"/>
+					<feature name="PCB"/>
+				</and>
+			</and>
+			<and abstract="true" mandatory="true" name="Security and Privacy">
+				<graphics key="collapsed" value="false"/>
+				<feature mandatory="true" name="Cryptography"/>
+				<feature mandatory="true" name="Digital Signature"/>
+			</and>
+		</and>
+	</struct>
+</featureModel>
