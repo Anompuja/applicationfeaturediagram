@@ -114,6 +114,8 @@
 	<feature name="Architecture Design"/>
 	<feature name="Communication Protocols"/>
 	<feature name="WSN"/>
+	<feature name="LoRaWAN"/>
+	<feature name="ZigBee"/>
 	<feature name="WiFi"/>
 	<feature name="Cellular"/>
 	<feature name="MQTT"/>

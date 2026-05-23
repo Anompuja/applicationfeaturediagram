@@ -176,7 +176,10 @@
 				<graphics key="collapsed" value="false"/>
 				<and abstract="true" mandatory="true" name="Communication Protocols">
 					<graphics key="collapsed" value="false"/>
-					<feature mandatory="true" name="WSN"/>
+					<and abstract="true" name="WSN">
+						<feature name="LoRaWAN"/>
+						<feature name="ZigBee"/>
+					</and>
 					<feature mandatory="true" name="WiFi"/>
 					<feature mandatory="true" name="Cellular"/>
 					<feature mandatory="true" name="MQTT"/>
