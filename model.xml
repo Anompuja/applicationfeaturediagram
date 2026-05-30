@@ -153,7 +153,7 @@
 					<graphics key="collapsed" value="false"/>
 					<feature mandatory="true" name="Satellite"/>
 					<feature mandatory="true" name="GNSS"/>
-					<feature mandatory="true" name="Moisture Sensor"/>
+					<feature mandatory="true" name="IOT Sensor"/>
 					<feature mandatory="true" name="RGB Camera"/>
 					<feature name="UAV Drone"/>
 				</and>

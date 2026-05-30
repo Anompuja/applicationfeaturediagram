@@ -100,7 +100,7 @@
 	<feature name="Sensing Technologies"/>
 	<feature name="Satellite"/>
 	<feature name="GNSS"/>
-	<feature name="Moisture Sensor"/>
+	<feature name="IOT Sensor"/>
 	<feature name="RGB Camera"/>
 	<feature name="UAV Drone"/>
 	<feature name="Smart Machinery"/>
