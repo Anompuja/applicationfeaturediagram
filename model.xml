@@ -11,9 +11,10 @@
 		<graphics key="layoutalgorithm" value="4"/>
 	</properties>
 	<struct>
-		<and abstract="true" mandatory="true" name="RSCF-DMS Astungkara Way">
+		<and abstract="true" mandatory="true" name="RSCF Astungkara Way">
+			<graphics key="collapsed" value="false"/>
 			<and abstract="true" mandatory="true" name="Goals">
-				<graphics key="collapsed" value="false"/>
+				<graphics key="collapsed" value="true"/>
 				<feature mandatory="true" name="Cost Reduction"/>
 				<feature mandatory="true" name="Sustainability"/>
 				<feature mandatory="true" name="Disease Prevention"/>
@@ -27,9 +28,9 @@
 				<feature name="Harvest Quality"/>
 			</and>
 			<and abstract="true" mandatory="true" name="Farm Activities">
-				<graphics key="collapsed" value="false"/>
+				<graphics key="collapsed" value="true"/>
 				<and abstract="true" name="Preparation Phase">
-					<graphics key="collapsed" value="false"/>
+					<graphics key="collapsed" value="true"/>
 					<feature name="Crop Selection"/>
 					<feature mandatory="true" name="Soil Testing"/>
 					<feature mandatory="true" name="Soil Analysis"/>
@@ -38,7 +39,7 @@
 					<feature name="Cleaning"/>
 				</and>
 				<and abstract="true" name="Production Phase">
-					<graphics key="collapsed" value="false"/>
+					<graphics key="collapsed" value="true"/>
 					<feature mandatory="true" name="Planting"/>
 					<feature name="Seeding"/>
 					<feature mandatory="true" name="Transplanting"/>
@@ -81,7 +82,7 @@
 				</and>
 			</and>
 			<and abstract="true" mandatory="true" name="Field Data">
-				<graphics key="collapsed" value="false"/>
+				<graphics key="collapsed" value="true"/>
 				<feature mandatory="true" name="Weather Station"/>
 				<and abstract="true" mandatory="true" name="Soil Data">
 					<graphics key="collapsed" value="false"/>
@@ -139,7 +140,7 @@
 				</and>
 			</and>
 			<and abstract="true" mandatory="true" name="Adopted Technologies">
-				<graphics key="collapsed" value="false"/>
+				<graphics key="collapsed" value="true"/>
 				<and abstract="true" mandatory="true" name="AI and Analytics">
 					<graphics key="collapsed" value="false"/>
 					<feature mandatory="true" name="Statistical Model"/>
@@ -174,7 +175,7 @@
 				</and>
 			</and>
 			<and abstract="true" mandatory="true" name="Architecture Design">
-				<graphics key="collapsed" value="false"/>
+				<graphics key="collapsed" value="true"/>
 				<and abstract="true" mandatory="true" name="Communication Protocols">
 					<graphics key="collapsed" value="false"/>
 					<and abstract="true" name=" WSN Protocols">
@@ -199,7 +200,7 @@
 				</and>
 			</and>
 			<and abstract="true" mandatory="true" name="Security and Privacy">
-				<graphics key="collapsed" value="false"/>
+				<graphics key="collapsed" value="true"/>
 				<feature mandatory="true" name="Cryptography"/>
 				<feature mandatory="true" name="Digital Signature"/>
 			</and>
