@@ -90,6 +90,7 @@
 	<feature name="Nitrogen"/>
 	<feature name="Phosphorus"/>
 	<feature name="Potassium"/>
+	<feature name="Sulfur"/>
 	<feature name="Adopted Technologies"/>
 	<feature name="AI and Analytics"/>
 	<feature name="Statistical Model"/>
