@@ -176,7 +176,7 @@
 				<graphics key="collapsed" value="false"/>
 				<and abstract="true" mandatory="true" name="Communication Protocols">
 					<graphics key="collapsed" value="false"/>
-					<and abstract="true" name="WSN">
+					<and abstract="true" name=" WSN Protocols">
 						<feature name="LoRaWAN"/>
 						<feature name="ZigBee"/>
 					</and>

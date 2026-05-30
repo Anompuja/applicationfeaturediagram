@@ -113,7 +113,7 @@
 	<feature name="Expert System"/>
 	<feature name="Architecture Design"/>
 	<feature name="Communication Protocols"/>
-	<feature name="WSN"/>
+	<feature name=" WSN Protocols"/>
 	<feature name="LoRaWAN"/>
 	<feature name="ZigBee"/>
 	<feature name="WiFi"/>
